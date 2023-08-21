@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.game-options {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+}
+
+.option {
+    width: 100px;
+    cursor: pointer;
+}
+
+.score {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.result {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#resetButton {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

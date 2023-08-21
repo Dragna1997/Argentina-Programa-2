@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Piedra, Papel o Tijera</title>
+</head>
+
+<body>
+    <h1>Piedra, Papel o Tijera</h1>
+    <input type="text" id="playerName" placeholder="Ingresa tu nombre">
+
+    <div class="game-options">
+        <img src="imagenes/rock-paper-scissors-296854_1280.jpg" alt="Piedra" class="option" id="rock">
+        <img src="imagenes/rock-paper-scissors-296855_1280.jpg" alt="Papel" class="option" id="paper">
+        <img src="imagenes/rock-paper-scissors-296853_1280.png" alt="Tijera" class="option" id="scissors">
+    </div>
+
+    <div class="score">
+        <p>Jugador: <span id="playerScore">0</span></p>
+        <p>PC: <span id="pcScore">0</span></p>
+    </div>
+
+    <div class="result" id="result"></div>
+
+    <button id="resetButton">Reiniciar</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
